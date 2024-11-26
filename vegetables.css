@@ -1,0 +1,32 @@
+ *body{
+    padding: 0;
+    margin: 0;
+ }
+ .vegetables.items.img{
+    width: 90%;
+    filter:drop-shadow(0 50px 20px hwb(0 10% 89% / 0.6));
+ }
+ .vegetables {
+    display: grid;
+    grid-template-columns: (4,1fr);
+    gap:20px;
+ }
+ .vegetables .items{
+    background-color: #b5b517;
+    padding: 20px;
+    border-radius:60px;
+ }
+ .vegetables.items,h2{
+    font-weight: 500;
+    font-size: small;
+
+ }
+ .vegetables.items,button{
+    background-color:black;
+    color: hwb(0 96% 3%);
+    padding:5px 10px;
+    border-radius:20px;
+    margin-top:10px;
+    border:none;
+    cursor: pointer;
+ }
